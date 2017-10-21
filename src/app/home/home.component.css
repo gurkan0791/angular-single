@@ -1,0 +1,16 @@
+.inner {
+    padding: 1rem;
+    text-align: center;
+}
+.cover {
+    margin-bottom: 4.7rem;
+    background: url(/assets/background3.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+}
+a:first-child {
+    color:white;
+}

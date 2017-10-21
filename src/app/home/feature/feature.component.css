@@ -1,0 +1,34 @@
+.shell {
+    text-align: center;
+}
+h2:first-child {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 5rem;
+}
+.feature-flex-wrap {
+    display: flex;
+    flex-direction: row;
+}
+.feature-flex-item {
+    flex: 1;
+    /* padding: 2rem 2rem;  */
+    /* width:100px; */
+    /* background-color: rgb(211, 188, 172); */
+}
+.feature-flex-item h6:nth-child(2) {
+    line-height: 1.3rem;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem;
+}
+/* h6{
+    margin-bottom: 1.5rem;
+} */
+i:first-child {
+    font-size: 4rem;
+    color: rgb(253 ,171, 48);
+    margin-top: 1rem;
+}
