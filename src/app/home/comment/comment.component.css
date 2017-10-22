@@ -1,0 +1,129 @@
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.shell {
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    margin-bottom: 10rem;
+}
+.say-flex-item {
+    /* flex: 1; */
+    width: 22rem;
+    padding: 1rem;
+    border: none !important;
+    border-radius: 3px;
+    /* border: 0 1px 1px 1px solid white; */
+    /* box-shadow: 1px 1px 3px rgb(218, 214, 214); */
+    box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.15);
+
+    visibility: visible;
+    /* animation-delay: 0.3s; */
+    animation-name: none;
+    animation-duration: 1s;
+    box-sizing: border-box;
+
+}
+.say-flex-item:first-child {
+    animation-delay: 0.1s;
+}
+.say-flex-item:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.say-flex-item:last-child {
+    animation-delay: 0.3s;
+}
+.fadeInLeft {
+    /* visibility: visible;     */
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    /* animation-duration: 3s; */
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        /* visibility: visible; */
+        -webkit-transform: none;
+        transform: none;  
+    }
+}
+.comment-wrap {
+    position: relative;
+    margin-top: 2.9rem;
+}
+.comment {
+    padding-top: 3rem;
+}
+q {
+    quotes: none;
+    color: #9b9b9b;
+}
+i:first-child{
+    position: absolute;
+    color: #d9d9d9;
+    font-size: 2rem;
+    right: 1rem;
+}
+p:last-child {
+    color:red;
+}
+a {
+    text-decoration: none;
+}
+a > cite {
+    color:#434345;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+a:hover cite{
+    transition: 0.35s all ease;
+    color:#ff5f6d;
+}
+img:first-child {
+    position: absolute;
+}
+.img-circle {
+    border-radius: 50%;
+}
+
+
+@media (max-width: 992px) { 
+ 
+    .shell {
+        /* position: relative; */
+        display: flex;
+        flex: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+    .say-flex-item {
+        /* flex: 1; */
+        flex: 0 0 auto;
+        flex-basis: 66.66667%;
+        width: auto;
+        max-width: 70%;
+        padding: 1rem;
+        border: none !important;
+        border-radius: 3px;
+        text-align: left;
+        margin-bottom: 1rem;
+        /* border: 0 1px 1px 1px solid white; */
+        /* box-shadow: 1px 1px 3px rgb(218, 214, 214); */
+        box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.15);
+    }
+}

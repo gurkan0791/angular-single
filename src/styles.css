@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+body{
+  margin: 0;
+  
+  
+}
+a {
+  text-decoration: none;
+  color:rgb(145, 28, 28);
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
