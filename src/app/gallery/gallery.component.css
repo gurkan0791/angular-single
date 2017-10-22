@@ -1,0 +1,12 @@
+h2:first-child {
+    color: #585858;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+p{
+    color: rgb(88, 88, 88);
+    margin-bottom: 3rem;
+}
